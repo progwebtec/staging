@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Index on Programming and Web Technology @ IMI</title><link>https://progwebtec.github.io/staging/</link><description>Recent content in Index on Programming and Web Technology @ IMI</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://progwebtec.github.io/staging/index.xml" rel="self" type="application/rss+xml"/><item><title>Backus-Naur-Form</title><link>https://progwebtec.github.io/staging/material/languages/bnf/</link><pubDate>Fri, 08 Oct 2021 21:32:10 +0200</pubDate><guid>https://progwebtec.github.io/staging/material/languages/bnf/</guid><description>&lt;h2 id="the-gist">The Gist&lt;/h2>
+&lt;p>You might see something like&amp;hellip;.&lt;/p>
+&lt;p>if your repository is&lt;/p>
+&lt;pre>&lt;code> https://github.com/&amp;lt;organisation&amp;gt;/&amp;lt;repo&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>the entry in your &lt;code>.git/config&lt;/code> would be&lt;/p>
+&lt;pre>&lt;code> [remote &amp;quot;origin&amp;quot;]
+ url = git@github.com:&amp;lt;organisation&amp;gt;/&amp;lt;repo&amp;gt;.git
+&lt;/code>&lt;/pre>
+&lt;p>Where &lt;code>\&amp;lt;organisation\&amp;gt;&lt;/code> should be replaced with the github organisation, e.g. &amp;ldquo;htw-imi-info2&amp;rdquo; and
+&lt;code>\&amp;lt;repo\&amp;gt;&lt;/code> with the name of the respective git repository, e.g. &amp;ldquo;python-jupyter-notebooks&amp;rdquo;, yielding at this concrete text:&lt;/p>
+&lt;pre>&lt;code>https://github.com/htw-imi-info2/python-jupyter-notebooks
+
+[remote &amp;quot;origin&amp;quot;]
+ url = git@github.com:htw-imi-info2/python-jupyter-notebooks.git
+&lt;/code>&lt;/pre>
+&lt;h2 id="rewrite-rules">Rewrite Rules&lt;/h2>
+&lt;p>The convention of informally marking placeholders
+that should be replaced with the delimiters &lt;code>&amp;lt;&lt;/code> and &lt;code>&amp;gt;&lt;/code> stems from the Backus-Naur-Form (BNF).&lt;/p></description></item><item><title>Notes on Learning Python</title><link>https://progwebtec.github.io/staging/material/languages/python/python/</link><pubDate>Fri, 08 Oct 2021 21:32:10 +0200</pubDate><guid>https://progwebtec.github.io/staging/material/languages/python/python/</guid><description>&lt;h2 id="some-notes-and-tips-on-getting-started-with-the-python-programming-language">Some Notes and Tips on Getting Started with the Python Programming Language&lt;/h2>
+&lt;p>There are many, and many good Python resources available, many of them for
+free - after all, it&amp;rsquo;s the most frequently used programming language for
+introductionary courses.&lt;/p>
+&lt;p>&lt;a href="../python-resources/">See Python Resources&lt;/a>&lt;/p>
+&lt;h2 id="suggested-path-for-info3--info3">Suggested Path for Info3 &amp;amp; Info3&lt;/h2>
+&lt;p>As we are already using IntelliJ IDEA, using the Python Flavour of IntelliJ IDEA called &amp;ldquo;PyCharm&amp;rdquo; doesn&amp;rsquo;t have that steep of a learning curve.&lt;/p></description></item><item><title>M1 WS 2024/2025 Labs Schedule</title><link>https://progwebtec.github.io/staging/classes/ws2024/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/m1/main/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Fri 11/10/2024&lt;/td>
+ &lt;td style="text-align: left">Class Intro&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Fri 18/10/2024&lt;/td>
+ &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Fri 25/10/2024&lt;/td>
+ &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Fri 01/11/2024&lt;/td>
+ &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Fri 08/11/2024&lt;/td>
+ &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Fri 15/11/2024&lt;/td>
+ &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Fri 22/11/2024&lt;/td>
+ &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Fri 29/11/2024&lt;/td>
+ &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Fri 06/12/2024&lt;/td>
+ &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Fri 13/12/2024&lt;/td>
+ &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Fri 20/12/2024&lt;/td>
+ &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world (TBD)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Fri 27/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Fri 03/01/2025&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Fri 10/01/2025&lt;/td>
+ &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns (TBD)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Fri 17/01/2025&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Fri 24/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Fri 31/01/2025&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
+ &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Design of the Original</title><link>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/original_clock_display/</guid><description>&lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/clock_display_critique/">next&amp;gt;&lt;/a>
+
+
+&lt;p>The #colon;ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book &lt;a href="https://www.bluej.org/objects-first/">&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a>)&lt;/p>
+&lt;p>Here&amp;rsquo;s a class diagram with the private fields and public methods (Constructors are omitted for clarity):&lt;/p>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f0cd91', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#006100',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+ class ClockDisplay
+ class NumberDisplay
+ ClockDisplay ..> NumberDisplay
+ 
+
+ class ClockDisplay{
+ -NumberDisplay hours
+ -NumberDisplay minutes
+ -String displayString
+ void timeTick()
+ void setTime(int hour, int minute)
+ String getTime()
+ -void updateDisplay()
+ }
+ 
+ NumberDisplay: -int limit
+ NumberDisplay: -int value
+ NumberDisplay: int getValue()
+ NumberDisplay: String getDisplayValue()
+ NumberDisplay: void setValue(int)
+ NumberDisplay: void increment()
+&lt;/pre>
+
+&lt;p>Within the example the field &lt;code>displayString&lt;/code> in ClockDisplay is used to simulate the digital display. It is updated after every change to the time by calling the private method &lt;code>updateDisplay&lt;/code> after every change to the time. The two instances of NumberDisplay generate their part of the displayString in &lt;code>getDisplayValue&lt;/code>.
+But they also hold their part of the model - the value for hours and minutes respectively.&lt;/p></description></item><item><title>Schedule</title><link>https://progwebtec.github.io/staging/classes/ws2024/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info3/schedule/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: right">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: right">40&lt;/td>
+ &lt;td style="text-align: left">Tue 01/10/2024&lt;/td>
+ &lt;td style="text-align: left">Hochschultag&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 03/10/2024&lt;/td>
+ &lt;td style="text-align: left">Feiertag&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: right">41&lt;/td>
+ &lt;td style="text-align: left">Tue 08/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction to Info3, Source Code Management&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 10/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Source Code Management (GIT) and How to learn Python&lt;/td>
+ &lt;td style="text-align: left">Lab 1: Python, Git, Project Concept&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: right">42&lt;/td>
+ &lt;td style="text-align: left">Tue 15/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction to Software Engineering and Software Development Processes&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 17/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">System Modeling and Architectural Design&lt;/td>
+ &lt;td style="text-align: left">Lab 1: Python, Git, Project Concept&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: right">43&lt;/td>
+ &lt;td style="text-align: left">Tue 22/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Requirements Engineering&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 24/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Django&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: right">44&lt;/td>
+ &lt;td style="text-align: left">Tue 29/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">UML &amp;amp; System Modeling: Requirements, Product Owner Game&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 31/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Design Patterns (GOF)&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Django&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: right">45&lt;/td>
+ &lt;td style="text-align: left">Tue 05/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">SOLID Principles,&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 07/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">OO In Depth: Composition and Inheritance, Dynamic Typing, Duck Typing&lt;/td>
+ &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenarios&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: right">46&lt;/td>
+ &lt;td style="text-align: left">Tue 12/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 14/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenario&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: right">47&lt;/td>
+ &lt;td style="text-align: left">Tue 19/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">More on Design&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Application Architectures &amp;amp; System Models&lt;/td>
+ &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: right">48&lt;/td>
+ &lt;td style="text-align: left">Tue 26/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 28/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
+ &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: right">49&lt;/td>
+ &lt;td style="text-align: left">Tue 03/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 05/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
+ &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: right">50&lt;/td>
+ &lt;td style="text-align: left">Tue 10/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 12/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Testing Practices, Code Quality&lt;/td>
+ &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: right">51&lt;/td>
+ &lt;td style="text-align: left">Tue 17/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 19/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Testing, Refactoring to Patterns&lt;/td>
+ &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">52&lt;/td>
+ &lt;td style="text-align: left">Tue 24/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 26/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">1&lt;/td>
+ &lt;td style="text-align: left">Tue 31/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 02/01/2025&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: right">2&lt;/td>
+ &lt;td style="text-align: left">Tue 07/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Continuous Integration &amp;amp; Deployment&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 09/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Dependencies &amp;amp; how to test and handle them&lt;/td>
+ &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: right">3&lt;/td>
+ &lt;td style="text-align: left">Tue 14/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Internationalization and Localization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 16/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Repetition&lt;/td>
+ &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: right">4&lt;/td>
+ &lt;td style="text-align: left">Tue 21/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; the dates below are subject to change depending on the exam date &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 23/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">Probeklausur (TBD)&lt;/td>
+ &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: right">5&lt;/td>
+ &lt;td style="text-align: left">Tue 28/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 30/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">Exam (TBD - refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: right">6&lt;/td>
+ &lt;td style="text-align: left">Tue 04/02/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 06/02/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">Lab 8: Showtime&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>ClockDisplay Critique</title><link>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/clock_display_critique/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/clock_display_critique/</guid><description>&lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/original_clock_display/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/simple_clock_display/">next&amp;gt;&lt;/a>
+
+
+&lt;p>The ClockDisplay aims at showing object interaction, which it does.&lt;/p>
+&lt;h2 id="the-problems-i-see-are">The problems I see are:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>it mixes Model and Representation. Furthermore, the Model or more simply put the stored state, which is the time the clocks shows at the moment, is distributed between three objects - a NumberDisplay for hours and minutes respectively, and the ClockDisplay holding the knowledge how to combine the two.&lt;/p></description></item><item><title>Kara Class Diagram</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/resources/mermaid/kara-class-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/resources/mermaid/kara-class-diagram/</guid><description>&lt;h2 id="kara-class-diagram">Kara Class Diagram&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+ Kara &lt;|-- MyKara
+ Actor &lt;|-- Kara
+ 
+ class Actor{
+ -int x
+ -int y
+ -int rotation
+ +int getX()
+ +int getY()
+ +int getRotation()
+ }
+ class Kara{
+
+ void move()
+ void turnLeft()
+ void turnRight()
+ void putLeaf()
+ void removeLeaf()
+ boolean onLeaf()
+ boolean treeFront()
+ boolean treeLeft()
+ boolean treeRight()
+ boolean mushroomFront()
+ }
+ class MyKara{
+ void act()
+ void aroundTree()
+ }
+&lt;/pre>
+
+&lt;h3 id="with-object-top-of-inheritance-hierarchy">With Object (top of inheritance hierarchy)&lt;/h3>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+
+ Kara &lt;|-- MyKara
+ Actor &lt;|-- Kara
+ Object &lt;|-- Actor
+ 
+ class Object{
+ String toString()
+ ...()
+ }
+ class Actor{
+ -int x
+ -int y
+ -int rotation
+ +int getX()
+ +int getY()
+ +int getRotation()
+ }
+ class Kara{
+
+ void move()
+ void turnLeft()
+ void turnRight()
+ void putLeaf()
+ void removeLeaf()
+ boolean onLeaf()
+ boolean treeFront()
+ boolean treeLeft()
+ boolean treeRight()
+ boolean mushroomFront()
+ }
+ class MyKara{
+ void act()
+ void aroundTree()
+ }
+&lt;/pre></description></item><item><title>A very simple ClockDisplay</title><link>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/simple_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/simple_clock_display/</guid><description>&lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/clock_display_critique/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/kara-clock-display/">next&amp;gt;&lt;/a>
+
+
+&lt;p>All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from &lt;code>getTime()&lt;/code> after either the time has been set to 13:45 by calling &lt;code>setTime()&lt;/code> or after calling the &lt;code>timeTick()&lt;/code> method the appropriate amount of times.&lt;/p>
+&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="./clock_display_critique">general critique on the last page&lt;/a>.&lt;/p></description></item><item><title>Book Diagrams</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/resources/mermaid/all-mermaid-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/resources/mermaid/all-mermaid-diagrams/</guid><description>&lt;pre>&lt;code>classDiagram
+
+ class TicketMachine{
+ TicketMachine(int ticketPrice)
+ int getPrice()
+ int getBalance()
+ void insertMoney(int amount)
+ void printTicket()
+ }
+&lt;/code>&lt;/pre></description></item><item><title>Code Examples</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/code/</guid><description>&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to &lt;a href="https://github.com/htw-imi-info1">github&lt;/a>!&lt;/p>
+&lt;p>If I make changes during class, I will push them to the branch with the semester name.
+To switch to the branch, select the according semester in the branches menu in the upper left corner on each repository&amp;rsquo;s main page.(it shows &amp;ldquo;main&amp;rdquo; usually - the default branch)
+Note that it might also be quite convenient to look at the code on the github page online,
+the commit history shows you the exact changes I made during class.
+Click on &amp;ldquo;commits&amp;rdquo; and then one individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description></item><item><title>Kara ClockDisplays</title><link>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/kara-clock-display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/kara-clock-display/</guid><description>&lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/simple_clock_display/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/led_display/">next&amp;gt;&lt;/a>
+
+
+&lt;p>&amp;hellip; not yet here, see &lt;a href="https://progwebtec.github.io/staging/classes/ws2023/info1/labs/karaclock-complete/">KaraClock Exercises&lt;/a> for now&lt;/p></description></item><item><title>LED ClockDisplay</title><link>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/led_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/led_display/</guid><description>&lt;a href ="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/kara-clock-display/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;h2 id="leddisplay-extends-clockdisplay">LEDDisplay extends ClockDisplay&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f0cd91', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#006100',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+ class ClockDisplay
+ class LEDDisplay
+ class NumberDisplay
+ ClockDisplay &lt;|-- LEDDisplay
+ LEDDisplay ..> NumberDisplay
+ 
+
+ class ClockDisplay{
+ -String displayString
+ -int minutesInDay
+ void timeTick()
+ void setTime(int hour, int minute)
+ String getTime()
+ void updateDisplay()
+ String getDisplayValue(int value)
+ initRealDisplay(int hour, int minute)
+ updateRealDisplay()
+
+ }
+ class LEDDisplay{
+ -NumberDisplay hours
+ -NumberDisplay minutes
+ initRealDisplay(int hour, int minute)
+ updateRealDisplay()
+ }
+
+ NumberDisplay: void setValue(int)
+ 
+&lt;/pre>
+
+&lt;h2 id="clockdisplay-additional-methods-for-clock-and-automatic-ticker">ClockDisplay: additional methods for clock and automatic Ticker&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f0cd91', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#006100',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+
+ class ClockDisplay{
+ void start()
+ void stop()
+ void toggleTicker()
+ void setTickerSpeed(int)
+ }
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime---complete">LEDDisplay: setTime() - complete&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ activate #colon;LEDDisplay
+ YOU->>+#colon;LEDDisplay: setTime(13,45)
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+ 
+
+ activate #colon;LEDDisplay
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+
+ activate hours#colon;NumberDisplay
+
+ #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+ activate lower#colon;LEDDigit
+ hours#colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+ deactivate lower#colon;LEDDigit
+ activate upper#colon;LEDDigit
+ hours#colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+ deactivate upper#colon;LEDDigit
+ deactivate hours#colon;NumberDisplay
+
+
+ activate minutes#colon;NumberDisplay
+ #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+
+ activate lower_m#colon;LEDDigit
+ minutes#colon;NumberDisplay->>+lower_m#colon;LEDDigit:display(5)
+ deactivate lower_m#colon;LEDDigit
+ activate upper_m#colon;LEDDigit
+ minutes#colon;NumberDisplay->>+upper_m#colon;LEDDigit:display(4)
+ deactivate upper_m#colon;LEDDigit
+
+ deactivate minutes#colon;NumberDisplay
+
+
+ deactivate #colon;LEDDisplay
+
+ deactivate #colon;LEDDisplay
+ deactivate #colon;LEDDisplay
+ #colon;LEDDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime---clockdisplay--numberdisplay">LEDDisplay: setTime() - ClockDisplay &amp;amp; NumberDisplay&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ activate #colon;LEDDisplay
+ YOU->>+#colon;LEDDisplay: setTime(13,45)
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+ 
+
+ activate #colon;LEDDisplay
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+
+ activate hours#colon;NumberDisplay
+
+ #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+ 
+ deactivate hours#colon;NumberDisplay
+
+
+ activate minutes#colon;NumberDisplay
+ #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+
+
+ deactivate minutes#colon;NumberDisplay
+
+
+ deactivate #colon;LEDDisplay
+
+ deactivate #colon;LEDDisplay
+ deactivate #colon;LEDDisplay
+ #colon;LEDDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime---both-numberdisplays---leddigit">LEDDisplay: setTime() - both NumberDisplays &amp;amp; LEDDigit&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ 
+ #colon;LEDDisplay->>+#colon;NumberDisplay: updateDisplay(13)
+ activate lower#colon;LEDDigit
+ #colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+ deactivate lower#colon;LEDDigit
+ activate upper#colon;LEDDigit
+ #colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+ deactivate upper#colon;LEDDigit
+ deactivate #colon;NumberDisplay
+&lt;/pre>
+
+&lt;h2 id="clockdisplay-original-settime-copy">ClockDisplay original: setTime() copy&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ YOU->>+#colon;ClockDisplay: setTime(13,45)
+ #colon;ClockDisplay->>+hours#colon;NumberDisplay:setValue(13)
+ hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+ #colon;ClockDisplay->>+minutes#colon;NumberDisplay:setValue(45)
+ minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+ 
+ #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay()
+ #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue()
+ hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+ #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue()
+ minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+ 
+ deactivate #colon;ClockDisplay
+
+ #colon;ClockDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime-numberdisplay-leddigit">LEDDisplay: setTime() NumberDisplay-&amp;gt;LEDDigit&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ activate #colon;LEDDigit
+ #colon;NumberDisplay->>+#colon;LEDDigit: display(9)
+ loop each Segment
+ alt segment needs to be shown for value
+ activate #colon;Segment
+ #colon;LEDDigit->>+#colon;Segment: makeVisible()
+ deactivate #colon;Segment
+ else
+ #colon;LEDDigit->>+#colon;Segment: makeInvisible()
+ deactivate #colon;Segment
+ end
+ end
+ deactivate #colon;LEDDigit
+&lt;/pre>
+
+&lt;h3 id="initialization-maybe-old">Initialization (maybe old)&lt;/h3>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ create participant ClockDisplay
+ YOU->>+ClockDisplay: new()
+
+ create participant LEDClockDisplay
+ ClockDisplay->>+LEDClockDisplay: new()
+ create participant Canvas
+ LEDClockDisplay->>+Canvas: new()
+ Canvas-->>-LEDClockDisplay: canvas
+ LEDClockDisplay-->>-ClockDisplay: leds
+
+ loop [ for each number display part]
+ create participant NumberDisplay
+ ClockDisplay->>+NumberDisplay:new()
+ NumberDisplay-->>-ClockDisplay:aNumberDisplay
+ ClockDisplay->>+LEDClockDisplay: add(aNumberDisplay)
+ LEDClockDisplay->>+NumberDisplay:initDisplay(pos, canvas)
+ 
+ loop [ for each led digit]
+ create participant LEDDigit
+ NumberDisplay->>+LEDDigit:new(pos, canvas)
+
+ loop [ for each led segment]
+ create participant Segment
+ LEDDigit->>+Segment:new(pos, canvas)
+ Segment-->>-LEDDigit: segment
+ end
+
+ LEDDigit-->>-NumberDisplay: digit
+ end
+
+ NumberDisplay-->>-LEDClockDisplay:void
+ LEDClockDisplay-->>-ClockDisplay:void
+
+
+ end
+
+ ClockDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;p>loop [ for each display part]&lt;/p></description></item><item><title>Conditional Statement</title><link>https://progwebtec.github.io/staging/material/info1-script/01_basics/conditional/</link><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1-script/01_basics/conditional/</guid><description>&lt;h4 id="conditional-statement-if-then-else-statement">Conditional Statement (if-then-else statement)&lt;/h4>
+&lt;p>A conditional statement allows you to conditionally execute code parts based on a condition, either true or false or something that results in true or false (see boolean expression).&lt;/p>
+&lt;h1 id="structure">Structure&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c1">// before conditional&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">condition&lt;/span>&lt;span class="p">){&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">// if-part&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">else&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">// else-part&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c1">// after conditional&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre class="mermaid">flowchart TD
+ A[Start]
+ B(before conditional)
+ D(if-part)
+ E(else-part)
+ F(after conditional)
+
+ A --> B
+ B --> C{condition true?}
+ C --true--> D
+ C -->|false| E
+ D &amp; E --> F
+ F -->G[End]
+&lt;/pre>
+
+&lt;h2 id="the-else-part-can-be-omitted">The else part can be omitted&amp;hellip;&lt;/h2>
+&lt;p>&amp;hellip; if you don&amp;rsquo;t need it. If the condition is false, the execution continues directly with the statements after the if-statement.&lt;/p></description></item><item><title>While Loop</title><link>https://progwebtec.github.io/staging/material/info1-script/01_basics/while-loop/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1-script/01_basics/while-loop/</guid><description>&lt;h4 id="while-loop">While Loop&lt;/h4>
+&lt;h1 id="structure">Structure&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c1">// before loop&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">while&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">condition&lt;/span>&lt;span class="p">){&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">// loop body&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w"> 
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c1">// after loop&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="shorter">shorter&lt;/h1>
+&lt;pre class="mermaid">
+flowchart TD
+ S[Start]
+ C{cond?}
+ L(LOOP BODY)
+ E(End)
+ S --> C
+ 
+ C --true?--> L
+ L --> C
+ C -->|false?| E
+&lt;/pre>
+
+&lt;h1 id="longer-version">longer version&lt;/h1>
+&lt;pre class="mermaid">flowchart TD
+ A[Start]
+ B(before loop)
+ L(loop body)
+ F(after loop)
+
+ A --> B
+ B --> C{condition true?}
+ L --> C
+ C --true--> L
+ C -->|false| F
+ 
+ F -->G[End]
+&lt;/pre>
+
+&lt;pre tabindex="0">&lt;code>## Examples
+
+## Further Reading
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
+&lt;/code>&lt;/pre></description></item><item><title>M1 Schedules - History</title><link>https://progwebtec.github.io/staging/classes/m1/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/m1/</guid><description>&lt;ul>
+
+ 
+
+ 
+ 
+ 
+ &lt;li>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href= "https://progwebtec.github.io/staging//classes/ws2024/m1/schedule/">WS 2024:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 WS 2024/2025 Wednesday Schedule&lt;/a>
+ &lt;/li>
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+&lt;/ul></description></item><item><title>M1 WS 2024/2025 Wednesday Schedule</title><link>https://progwebtec.github.io/staging/classes/ws2024/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/m1/schedule/</guid><description>&lt;p>Stand: 10.10.2024 -
+&lt;a href="https://progwebtec.github.io/staging/classes/m1">M1 Schedule Overview&lt;/a>
+/
+&lt;a href="https://github.com/progwebtec/classes-module/blob/main/content/classes/ws2024/m1/schedule/index.md">Edit this page via github&lt;/a> (ask BK for rsepo permissions first)&lt;/p>
+&lt;p>Time and Room: See LSF (link in external links above)&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">40&lt;/td>
+ &lt;td style="text-align: left">Wed 02/10/2024&lt;/td>
+ &lt;td style="text-align: left">(erster Vorlesungstag)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Wed 09/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Wed 16/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Wed 23/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Wed 30/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Wed 06/11/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Wed 13/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Wed 20/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Wed 27/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Wed 04/12/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Wed 11/12/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Wed 18/12/2024&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Wed 25/12/2024&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Wed 01/01/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Wed 08/01/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Wed 15/01/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Wed 22/01/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Wed 29/01/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Wed 05/02/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Videos Software Engineering</title><link>https://progwebtec.github.io/staging/bibliographies/se_videos/</link><pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/bibliographies/se_videos/</guid><description/></item><item><title>Working with HTW Machines</title><link>https://progwebtec.github.io/staging/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
+&lt;p>There are rather verbose manuals about various ways to
+copy files from your HTW-RZ home directory to somewhere else.
+(see
+&lt;a href="https://rz.htw-berlin.de/anleitungen/speicherplatz/htw-space/webdrive/freigabe-dateien-und-ordner/">Freigabe von Dateien und Ordner über den Webdrive&lt;/a>
+)&lt;/p>
+&lt;p>The gist is: you may connect via SSH File Transfer Protocol to the server
+webdrive.htw-berlin.de (on default port 22)- see example below.
+The &lt;a href="https://man.openbsd.org/sftp">sftp&lt;/a> program used in the example is included in
+the &lt;a href="https://www.openssh.com/manual.html">OpenSSH Package&lt;/a>; most probably you&amp;rsquo;ll
+already have it installed on your computer, e.g. in git-bash on a windows machine.&lt;/p></description></item><item><title>Code Highlighting</title><link>https://progwebtec.github.io/staging/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://progwebtec.github.io/staging/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout">Syntax Highlighting Tryout&lt;/h2>
+&lt;p>Notes:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>switch off javascript that adds bootstrap styles to tables in frontmatter:
+&lt;code>NoStripedTables: true&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>many styles available, they can either be set in config (see markup.toml) or
+with the setting &lt;code>noClasses=false&lt;/code> via stylesheets. see &lt;code>syntax-xxx.scss&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Hugo Doc&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Chroma Styles:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://xyproto.github.io/splash/docs/all.html">Chroma Style Gallery&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://xyproto.github.io/splash/docs/longer/all.html">Longer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="example-from-page">Example from page:&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="hl">&lt;span class="lnt">199
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line hl">&lt;span class="cl">&lt;span class="c1">// ... code
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h3 id="without-anything">Without anything&lt;/h3>
+&lt;pre tabindex="0">&lt;code>$ ls -lart
+&lt;/code>&lt;/pre>&lt;hr>
+&lt;h3 id="bash">Bash&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">199
+&lt;/span>&lt;span class="lnt">200
+&lt;/span>&lt;span class="lnt">201
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">$ ls -lart
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">some output
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">199
+&lt;/span>&lt;span class="lnt">200
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># ls -lart&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">asdffs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="heading">&lt;/h3>
+&lt;p>style = &amp;lsquo;monokai&amp;rsquo;&lt;/p></description></item><item><title>Debian Server</title><link>https://progwebtec.github.io/staging/material/ops/debian-server/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/ops/debian-server/</guid><description>&lt;p>This is a short Manual on how to configure a Debian virtual Server hosted at HTW FB4.&lt;/p>
+&lt;h1 id="general-things">General Things&lt;/h1>
+&lt;h2 id="snowflakes">Snowflakes&lt;/h2>
+&lt;p>Configuring a server manually results in a &lt;a href="https://martinfowler.com/bliki/SnowflakeServer.html">Snowflake Server&lt;/a>.&lt;/p>
+&lt;p>I&amp;rsquo;ve logged the config changes as best I could in this repo, check the &lt;a href="https://github.com/htw-imi-networks/example-config/commits/main">commits&lt;/a>:
+&lt;a href="https://github.com/htw-imi-networks/example-config">https://github.com/htw-imi-networks/example-config&lt;/a>&lt;/p>
+&lt;h2 id="shell--path">Shell &amp;amp; Path&lt;/h2>
+&lt;p>&amp;hellip; TBD&lt;/p>
+&lt;h3 id="path">Path&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># echo $PATH&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="editor">Editor&lt;/h2>
+&lt;p>You should be able to survive in one of the available editors, e.g. &lt;a href="https://progwebtec.github.io/staging/material/ops/vi/">VI&lt;/a>&lt;/p>
+&lt;p>Set the default editor to ensure it is used eg. by visudo:&lt;/p></description></item><item><title>Notes on Sketchnotes</title><link>https://progwebtec.github.io/staging/material/visual/sketchnotes/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/visual/sketchnotes/</guid><description>&lt;p>To get started with sketchnotes, I recommend one of the sketchnote workshops held at Re:publica (about 1h):&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=hJKK9m5-xEY">the one at Republica 2015&lt;/a> is great, but the sketches on the flipcarts
+are sometimes hard to see.&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=IBq9VoRJQWU&amp;amp;t=1400s">in 2016&lt;/a> they projected the sketchnotes, but mirror-inverted :)&lt;/li>
+&lt;/ul>
+&lt;p>If you want to dig deeper:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://rohdesign.com">Martin Rhode&lt;/a> coined the term with &lt;a href="https://rohdesign.com/handbook">&amp;ldquo;The Sketchnote Handbook&amp;rdquo;&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.schrockguide.net/sketchnoting.html">Kathy Schrock on Sketchnoting in Education&lt;/a> - with lots of resources&lt;/li>
+&lt;li>&lt;a href="https://sketchnotes.de/2013/04/11/ueber-sketchnotes-lehren-und-lernen/">Über Sketchnotes, lehren und lernen&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="on-visual-notetaking-in-general">On Visual Notetaking in General&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=gj3ZnKlHqxI">Wie Zeichnen beim Merken hilft, Graham Shaw, TEDxVienna&lt;/a>&lt;/li>
+&lt;li>and, last not least: &lt;a href="https://www.youtube.com/watch?v=vjrJYuJP2-w">Ottis kleine Malstunde&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Nginx</title><link>https://progwebtec.github.io/staging/material/ops/nginx/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/ops/nginx/</guid><description>&lt;h2 id="nginx">nginX&lt;/h2>
+&lt;ul>
+&lt;li>Website: &lt;a href="https://nginx.org/">https://nginx.org/&lt;/a>&lt;/li>
+&lt;li>Documentation: &lt;a href="https://nginx.org/en/docs/">https://nginx.org/en/docs/&lt;/a>&lt;/li>
+&lt;li>Download: &lt;a href="https://nginx.org/en/download.html">nginx: download&lt;/a>&lt;/li>
+&lt;li>Installation: &lt;a href="https://nginx.org/en/docs/install.html">https://nginx.org/en/docs/install.html&lt;/a>
+&lt;ul>
+&lt;li>Windows: &lt;a href="http://nginx.org/en/docs/windows.html">http://nginx.org/en/docs/windows.html&lt;/a>&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Beginner&amp;rsquo;s guide: &lt;a href="http://nginx.org/en/docs/beginners_guide.html">http://nginx.org/en/docs/beginners_guide.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>ءBy default, the configuration file is named nginx.conf and placed in the
+directory &lt;code>/usr/local/nginx/conf&lt;/code>, &lt;code>/etc/nginx&lt;/code>, or &lt;code>/usr/local/etc/nginx&lt;/code>.&lt;/p>
+&lt;h3 id="notes--macos">Notes / MacOs&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>installation with homebrew:&lt;/p>
+&lt;pre>&lt;code> brew install nginx
+&lt;/code>&lt;/pre>
+&lt;/li>
+&lt;li>
+&lt;p>start nginx&lt;/p>
+&lt;pre>&lt;code> nginx -s
+&lt;/code>&lt;/pre>
+&lt;/li>
+&lt;li>
+&lt;p>Where signal may be one of the following:&lt;/p>
+&lt;pre>&lt;code> stop — fast shutdown
+ quit — graceful shutdown
+ reload — reloading the configuration file
+ reopen — reopening the log files
+&lt;/code>&lt;/pre>
+&lt;/li>
+&lt;li>
+&lt;p>put configuration under version control:&lt;/p></description></item><item><title>VI</title><link>https://progwebtec.github.io/staging/material/ops/vi/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/ops/vi/</guid><description>&lt;h1 id="vi">VI&lt;/h1>
+&lt;p>You should learn a couple of vi commands to survive, as vi is available on most *nix computers.&lt;/p>
+&lt;h2 id="the-absolute-minimum">The absolute minimum&lt;/h2>
+&lt;p>There are two modes in vi: normal and insert.
+You need to know which mode you are in, as different commands are available.
+&lt;a href="https://www.nngroup.com/articles/modes/">(Why this may be problematic has been discussed thoroughly in the UX field)&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Normal Mode:
+&lt;ul>
+&lt;li>vi starts there&lt;/li>
+&lt;li>&lt;strong>get there with &lt;code>ESC&lt;/code>&lt;/strong>&lt;/li>
+&lt;li>start command with&lt;code>:&lt;/code>&lt;/li>
+&lt;li>&lt;code>:w&lt;/code> write (save) file&lt;/li>
+&lt;li>&lt;code>:q&lt;/code> quit (without save, won’t quit if there are changes)&lt;/li>
+&lt;li>&lt;strong>&lt;code>:wq&lt;/code> quit and save&lt;/strong>&lt;/li>
+&lt;li>&lt;code>:q!&lt;/code> quit without save no matter what&lt;/li>
+&lt;li>&amp;lt; &lt;code>h&lt;/code> ^&lt;code> j&lt;/code> v &lt;code>k &lt;/code> &amp;gt;&lt;code>l&lt;/code> the keys under your right hand double as cursor keys; this makes editing fast!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Insert Mode:
+&lt;ul>
+&lt;li>type to insert text&lt;/li>
+&lt;li>get there with any insert command, eg
+&lt;ul>
+&lt;li>&lt;strong>&lt;code>i&lt;/code> insert before cursor&lt;/strong>&lt;/li>
+&lt;li>&lt;code>a&lt;/code> insert after cursor&lt;/li>
+&lt;li>&lt;code>o&lt;/code> insert in new line after this one&lt;/li>
+&lt;li>&lt;code>O&lt;/code> insert in new line before this one&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="some-links-and-further-resources">Some Links and further Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">Graphical vi-vim Cheat Sheet and Tutorial&lt;/a>, &lt;a href="https://www.glump.net/_media/howto/desktop/vim-graphical-cheat-sheet-and-tutorial/vi-vim-cheat-sheet-and-tutorial.pdf">also available in one PDF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.viemu.com/a-why-vi-vim.html">Why, oh WHY, do those #?@! nutheads use vi?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes">Learning the vi Editor/Vim/Modes - Wikibooks, open books for an open world&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>About Mermaid</title><link>https://progwebtec.github.io/staging/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/mermaid/</guid><description>&lt;p>&lt;a href="https://mermaid.js.org/">Mermaid&lt;/a> renders diagrams from simple markdown code. It can be used&lt;/p>
+&lt;ul>
+&lt;li>via integrating the available js library (yarn add mermaid),&lt;/li>
+&lt;li>online via &lt;a href="https://mermaid.live/">Mermaid-Live&lt;/a>,&lt;/li>
+&lt;li>is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams">Github markdown files&lt;/a> (and others)&lt;/li>
+&lt;li>and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams">easily integrated into hugo&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;p>Here are some examples taken from Mermaid Live:&lt;/p>
+&lt;pre class="mermaid">stateDiagram-v2
+ [*] --> Still
+ Still --> [*]
+ Still --> Moving
+ Moving --> Still
+ Moving --> Crash
+ Crash --> [*]
+&lt;/pre>
+
+&lt;pre>&lt;code>flowchart TD
+ A[Christmas] --&amp;gt;|Get money| B(Go shopping)
+ B --&amp;gt; C{Let me think}
+ C --&amp;gt;|One| D[Laptop]
+ C --&amp;gt;|Two| E[iPhone]
+ C --&amp;gt;|Three| F[fa:fa-car Car]
+&lt;/code>&lt;/pre>
+&lt;pre class="mermaid">flowchart TD
+ A[Christmas] -->|Get money| B(Go shopping)
+ B --> C{Let me think}
+ C -->|One| D[Laptop]
+ C -->|Two| E[iPhone]
+ C -->|Three| F[fa:fa-car Car]
+&lt;/pre>
+
+&lt;pre class="mermaid">stateDiagram-v2
+ [*] --> Still
+ Still --> [*]
+ Still --> Moving
+ Moving --> Still
+ Moving --> Crash
+ Crash --> [*]
+&lt;/pre>
+
+&lt;h1 id="flowchart-cheatsheet">Flowchart Cheatsheet&lt;/h1>
+&lt;pre class="mermaid">flowchart TD
+ A[Start] --> B{Is it?}
+ B -->|Yes| C[OK]
+ C --> D[Rethink]
+ D --> B
+ B ---->|No| E[End]
+ id1>This is the text in the box]
+ id2{{This is the text in the box}}
+&lt;/pre>
+
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>hugo/themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://progwebtec.github.io/staging/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/save_object_bench/</guid><description>&lt;p>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p>
+&lt;h3 id="1-save-the-state-of-your-object-bench">1. Save the state of your object bench&lt;/h3>
+&lt;p>Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class:
+&lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>e-learning for 2/1/2024</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/schedule/e-learning-newyear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/schedule/e-learning-newyear/</guid><description>&lt;ol>
+&lt;li>Read up on Inheritance in the book - Chapter 10 mainly, we also already covered parts of Chapter 11&amp;amp;12.&lt;/li>
+&lt;li>You may also or instead watch the videos for the respective chapters &lt;a href="../../resources#textbook-videos">linked from the resources page&lt;/a>.&lt;/li>
+&lt;li>Practice and test your understanding of inheritance using the 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/chapter10-inheritance/tree/main/InheritancePlayground">InheritancePlayground&lt;/a>
+ project.&lt;/li>
+&lt;li>Work on &lt;a href="../../labs/exercise-10/">Lab10&lt;/a>. It is sufficient if you use the version in &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul/tree/main/your-zuul-command-hierarchy">your-zuul-command-hierarchy&lt;/a>
+Read the source code of &lt;code>Command.java&lt;/code> and it&amp;rsquo;s subclasses (Go, Help, Quit&amp;hellip;) to see how the command hierarchy cleans up the code by moving all commands to their respective small subclass of &lt;code>Command&lt;/code>. Study &lt;code>CommandWord.java&lt;/code> to see how the correct class is instantiated.&lt;/li>
+&lt;li>If you missed the Refactoring Part for Lab09, make sure you also read Chapter 08 and do the refactoring of Rooms &amp;amp; their exits for Lab10.&lt;/li>
+&lt;li>Provide a brief summary of what you did as lecture notes for 2/1/2024 in Moodle.&lt;/li>
+&lt;/ol></description></item><item><title>Exercise 00: Lab Startup</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-00/</guid><description>&lt;p>This page contains instructions on how you can prepare for the Info1 labs, that is, opening source code in greenfoot (or bluej) and uploading reports to moodle.&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>Welcome to the laboratory - that&amp;rsquo;s what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules (&amp;ldquo;Laborordnung&amp;rdquo;) &lt;a href="https://imi-bachelor.htw-berlin.de/studium/labore/">here&lt;/a>.&lt;/p></description></item><item><title>Exercise 01: Sending Messages to Objects</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-01/</guid><description>&lt;pre class="mermaid">
+sequenceDiagram
+ actor You
+ create Participant Picture
+ You->>+Picture:new()
+ You->>+Picture:draw()
+ create Participant Circle
+ Picture->>+Circle: new()
+ Circle-->>-Picture:circle
+ Picture->>+Circle: makeVisible()
+ Circle-->>-Picture:void
+ Picture-->>-You:void
+ 
+&lt;/pre>
+
+&lt;p>This week&amp;rsquo;s lab is all about exploring given Objects by sending them messages (aka in Java: calling methods) -
+and writing your first programs by putting them together in your own methods.&lt;/p>
+&lt;h2 id="what-to-bring-to-lab">What to bring to lab&lt;/h2>
+&lt;p>&lt;strong>P1.&lt;/strong> In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.&lt;/p></description></item><item><title>Exercise 02: TicketMachine</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-02/</guid><description>&lt;p>&lt;img src="../../images/ticket-5277919863_b741ccde84_b.jpg" alt="Old Ticket">
+&lt;!-- raw HTML omitted -->Printed Ticket. &lt;a href="https://www.flickr.com/photos/sludgeulper/5277919863/">Sludge G&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Source code for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/chapter02">https://github.com/htw-imi-info1/chapter02&lt;/a>
+&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;p>&lt;strong>1.&lt;/strong> What could be wrong with the following constructor? Don&amp;rsquo;t execute it, think about it in your head.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">TicketMachine&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ticketCost&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">price&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ticketCost&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">total&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>2.&lt;/strong> How can you tell the difference between a method and a constructor just by looking at its header?&lt;/p></description></item><item><title>Exercise 03: Book Exercise</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-03/</guid><description>&lt;p>&lt;img src="../../images/books-8314929977.jpg" alt="Book">
+&lt;!-- raw HTML omitted -->Books. &lt;a href="https://www.flickr.com/photos/abee5/8314929977/">Abhi Sharma&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
+&lt;p>&lt;strong>Please finish these exercises before coming to lab.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong>
+Why does the following version of refundBalance not give the same results as what we saw in class?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">refundBalance&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">return&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>P2.&lt;/strong>&lt;/p></description></item><item><title>Exercise 04: Rock Around the Clock</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-04/</guid><description>&lt;p>&lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">&lt;img src="../../images/clock-stockholm-6085686394-320.jpg" alt="Clock">&lt;/a>
+&lt;!-- raw HTML omitted -->Katarina Elevator in Stockholm, Foto by &lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">Arjan Richter&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0.&lt;/strong> Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.&lt;/p></description></item><item><title>Exercise 05: A Better Notebook</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-05/</guid><description>&lt;p>&lt;img src="../../images/notebook-6783298985.jpg" alt="Notebook">
+&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/waferboard/6783298985">waferboard&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended help you practice using loops.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0&lt;/strong>. Write a loop on paper that prints out all multiples of 5 between 10 and 95.&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong> Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.&lt;/p></description></item><item><title>Exercise 06: Lotto and Technical Support</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-06/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week&amp;rsquo;s lab work is intended give you practice using more classes from the Java API: the Random class, Sets and Maps.&lt;/p>
+&lt;hr>
+&lt;h1 id="pre-lab">Pre-Lab&lt;/h1>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. How do you generate random numbers between 1 and 10 with Java? In what package is the library?&lt;/p>
+&lt;p>&lt;strong>P2.&lt;/strong> How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.&lt;/p></description></item><item><title>Exercise 07: Lambda Functions</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-07/</guid><description>&lt;p>&lt;img src="./kakapo-aye-aye.jpg" alt="Kakapo and Aye-Aye">&lt;/p>
+&lt;p>Sources:
+&lt;a href="https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis).jpg">https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis).jpg&lt;/a>
+&lt;a href="https://en.m.wikipedia.org/wiki/File:Kakapo_Sirocco_1.jpg">https://en.m.wikipedia.org/wiki/File:Kakapo_Sirocco_1.jpg&lt;/a>&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended help you better understand lambda functions, and Kara has a comeback to practice iterating through Lists.&lt;/p>
+&lt;p>Source code for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/exercise07-lambda-expressions">https://github.com/htw-imi-info1/exercise07-lambda-expressions&lt;/a>
+&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;p>Please prepare these Exercises *before* coming to lab! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0.&lt;/strong> If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?&lt;/p></description></item><item><title>Exercise 08: Testing with JUnit</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-08/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice developing test cases and testing and writing Unit Tests.&lt;/p>
+&lt;p>Source code for this lab: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/chapter09_testing">https://github.com/htw-imi-info1/chapter09_testing&lt;/a>
+ - diary-prototype&lt;/p>
+&lt;h4 id="pre-lab">Pre Lab&lt;/h4>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. Write down six test cases for Day and Appointment that. Give each test case (and, if applicable the ones from the lecture) a name.&lt;/p>
+&lt;p>&lt;strong>P2&lt;/strong>. What assertions do you need in order to be able to automate the tests?&lt;/p></description></item><item><title>Exercise 09: The World of You</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-09/</guid><description>&lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;p>Source code for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul">https://github.com/htw-imi-info1/exercise09-zuul&lt;/a>
+&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Invent your own game scenario away from the computer. Don&amp;rsquo;t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 10: Use Inheritance for Commands</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-10/</guid><description>&lt;p>This week’s lab work will continue the zuul project.&lt;/p>
+
+
+
+&lt;div class="mermaid" align="center">
+ 
+classDiagram
+
+ Command &amp;lt;|-- Go
+ Command &amp;lt;|-- Quit
+ Command &amp;lt;|-- Help
+ Command &amp;lt;|-- Look
+ Command &amp;lt;|-- Eat
+ &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt; Command
+ class Command{
+ processCommand(Player)*
+ }
+ 
+ class Go{
+ processCommand(Player)
+ }
+ class Quit{
+ processCommand(Player)
+ }
+ class Help{
+ processCommand(Player)
+ }
+ class Look{
+ processCommand(Player)
+ }
+ class Eat{
+ processCommand(Player)
+ }
+
+&lt;/div>
+
+&lt;p>The Class Hierarchy for Commands.&lt;/p>
+&lt;h3 id="update-28122023">Update 28/12/2023&lt;/h3>
+&lt;p>As the refactoring described below - even with the provided parts - is still quite difficult as you might get a lot of compilation errors along the way,
+here&amp;rsquo;s a third alternative:
+Re-do the last lab - the refactoring described in Chapter 08, Designing Classes, again (or for the first time, as a lot of you have missed that part! ) based on this version that already has the Command Hierarchy:
+
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul/tree/main/your-zuul-command-hierarchy">your-zuul-command-hierarchy&lt;/a>
+.&lt;/p></description></item><item><title>Exercise 11: Keeping Track of Stuff</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-11/</guid><description>&lt;p>&lt;img src="./game-items.jpg" alt="Game Items">
+&lt;a href="https://www.freepik.com/free-vector/game-icons-with-signs-key-playing-cards-money_26689359.htm#query=game%20items&amp;amp;position=0&amp;amp;from_view=keyword&amp;amp;track=ais&amp;amp;uuid=bc732565-c659-4120-85ff-8cea9a1bf92a">Image by upklyak&lt;/a>
+on Freepik&lt;/p>
+&lt;p>&lt;strong>update: re-check this page for JSONWorld additions. They will be optional.&lt;/strong>&lt;/p>
+&lt;p>This week’s lab work will continue a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Prepare your pre-lab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?&lt;/p></description></item><item><title>Exercise 12: Pick up and Carry</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/exercise-12/</guid><description>&lt;p>This week&amp;rsquo;s lab work will finish up your project.&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Here are some informal specifications: A player must be able to pick up items from the current room. They can carry any number of items, but only up to a maximum weight limit. Some items are too heavy to be picked up. The player can drop one or all items in the current location. What changes are you going to have to make to your game? Don&amp;rsquo;t program them yet, just specify the changes that need to be made to each class in writing.&lt;/p></description></item><item><title>GIT Intro</title><link>https://progwebtec.github.io/staging/material/git-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/git-intro/</guid><description>&lt;h2 id="source-code-management-mit-git">Source Code Management mit GIT&lt;/h2>
+&lt;p>Für Info2 hatte ich im letzten Semester eine GIT-Introduction aufgenomen:&lt;/p>
+&lt;p>(Zugänglich mit HTW-Login)&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part1/2980e3c60421ee9a96089108c12b21da">Part 1&lt;/a> - Basics and a simple git workflow: Repository anlegen, commit, push, pull, clone&lt;/li>
+&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part2/45cd6d8891579afd4889dba15a7a901e">Part 2&lt;/a> - committing the right files: git status, git add, index&lt;/li>
+&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part3/92013add95f331153835580f374c68a1">Part 3&lt;/a> - Stolpersteine: andere machen Änderungen! - merge conflicts, vi als editor&lt;/li>
+&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part4/0f299fb70d15ab9ff4d82b7865d8482d">Part 4&lt;/a> - Adding SSH Keys and copying Repos from Github to Gitlab&lt;/li>
+&lt;/ul>
+&lt;p>Seither habe ich gelernt, dass die Beispiele meiner commit messages nicht
+gut gewählt waren.
+&lt;a href="https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53">In diesem Gist&lt;/a>
+gibt es gute Hinweise dazu.&lt;/p></description></item><item><title>Grading Scale</title><link>https://progwebtec.github.io/staging/studies/grading/grading-scale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/studies/grading/grading-scale/</guid><description>&lt;p>This is the official grading scale according to the &lt;a href="https://www.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2013/04_13.pdf">RPO&lt;/a>. There are 110-120 percent possible on all courses I teach.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Percent&lt;/th>
+ &lt;th style="text-align: left">Grade&lt;/th>
+ &lt;th style="text-align: left">Percent&lt;/th>
+ &lt;th style="text-align: left">Grade&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">95 ≤ p&lt;/td>
+ &lt;td style="text-align: left">1,0&lt;/td>
+ &lt;td style="text-align: left">65 ≤ p &amp;lt; 70&lt;/td>
+ &lt;td style="text-align: left">3,0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">90 ≤ p &amp;lt; 95&lt;/td>
+ &lt;td style="text-align: left">1,3&lt;/td>
+ &lt;td style="text-align: left">60 ≤ p &amp;lt; 65&lt;/td>
+ &lt;td style="text-align: left">3,3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">85 ≤ p &amp;lt; 90&lt;/td>
+ &lt;td style="text-align: left">1,7&lt;/td>
+ &lt;td style="text-align: left">55 ≤ p &amp;lt; 60&lt;/td>
+ &lt;td style="text-align: left">3,7&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">80 ≤ p &amp;lt; 85&lt;/td>
+ &lt;td style="text-align: left">2,0&lt;/td>
+ &lt;td style="text-align: left">50 ≤ p &amp;lt; 55&lt;/td>
+ &lt;td style="text-align: left">4,0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">75 ≤ p &amp;lt; 80&lt;/td>
+ &lt;td style="text-align: left">2,3&lt;/td>
+ &lt;td style="text-align: left">0 ≤ p &amp;lt; 50&lt;/td>
+ &lt;td style="text-align: left">5,0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">70 ≤ p &amp;lt; 75&lt;/td>
+ &lt;td style="text-align: left">2,7&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Guideline to Lab Reports and Assignments</title><link>https://progwebtec.github.io/staging/studies/grading/guideline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/studies/grading/guideline/</guid><description>&lt;h1 id="general-info-about-lab-reports-and-grading">General Info about Lab Reports and Grading&lt;/h1>
+&lt;h2 id="what-to-hand-in">What to hand in&lt;/h2>
+&lt;p>The assignments will clearly state wether you need to hand in a LabReport as PDF, source code or both.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>if both PDF and source code have to be submitted, upload two files: a PDF and a zip with the source code. Please do &lt;strong>not&lt;/strong> include the PDF in the ZIP file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If only a PDF has to be submitted, hand in the PDF. If only source code has to be submitted, hand in only the zip file.&lt;/p></description></item><item><title>Hugo Markdown</title><link>https://progwebtec.github.io/staging/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/hugo/markdown/</guid><description>&lt;p>This is something in between a playground and a cheatsheet for hugo markdown.&lt;/p>
+&lt;h2 id="markdown-in-hugo">Markdown in Hugo&lt;/h2>
+&lt;p>&lt;a href="https://gohugo.io/getting-started/configuration-markup/">https://gohugo.io/getting-started/configuration-markup/&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>&lt;del>strikethrough&lt;/del>&lt;/li>
+&lt;li>
+&lt;pre tabindex="0">&lt;code class="language-strikethrough~~~" data-lang="strikethrough~~~">&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>&lt;del>not strikethrough&lt;/del>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.markdownguide.org/tools/hugo/">https://www.markdownguide.org/tools/hugo/&lt;/a>&lt;/p>
+&lt;h2 id="ordered-lists">Ordered Lists&lt;/h2>
+&lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists">https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>One
+&lt;ol>
+&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
+&lt;li>Numbering does not have to be correct in the source
+&lt;ol>
+&lt;li>But the first number matters&lt;/li>
+&lt;li>second 42 is not a 42&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Without a one it is not even recognized as a list
+42. But the first number matters
+42. second 42 is not a 43&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Two&lt;/li>
+&lt;/ol>
+&lt;h2 id="code-in-lists">Code in Lists&lt;/h2>
+&lt;ol>
+&lt;li>One
+&lt;ol>
+&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
+&lt;li>Numbering does not have to be correct in the source
+&lt;ol>
+&lt;li>
+&lt;p>But the first number matters&lt;/p></description></item><item><title>JUnit in BlueJ</title><link>https://progwebtec.github.io/staging/material/info1/junit_in_bluej/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/info1/junit_in_bluej/</guid><description>&lt;h2 id="monday-04december-2023">Monday, 04.December 2023&lt;/h2>
+&lt;p>JUnit is not part of the Java API, it is a third-party software.
+You find all information about JUnit, including a &lt;a href="https://junit.org/junit5/docs/current/user-guide/">user guide&lt;/a> and information about and download of the latest version on &lt;a href="https://junit.org">https://junit.org&lt;/a>.&lt;/p>
+&lt;p>As of this writing, the current version is 5.10.1, but the version included in BlueJ 5.2.1 is JUnit 5.5.2, as you can check within the installation of BlueJ:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">BlueJ.app/Contents/Java&amp;gt;ls junit*
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-4.12.jar				junit-jupiter-params-5.5.2.jar		junit-platform-suite-api-1.5.2.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-5.5.2.jar			junit-platform-commons-1.5.2.jar	junit-vintage-engine-5.5.2.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-api-5.5.2.jar		junit-platform-engine-1.5.2.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-engine-5.5.2.jar		junit-platform-launcher-1.5.2.jar
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As we only use a &lt;em>very&lt;/em> small portion of JUnit this should not matter - but if you look something up
+in the BlueJ documentation, keep this in mind. (you could also try updating JUnit in the above directory, of course. I haven&amp;rsquo;t tried it.)&lt;/p></description></item><item><title>KaraClock Complete</title><link>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/karaclock-complete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/classes/ws2024/info1/labs/karaclock-complete/</guid><description>&lt;p>This is a complete overview of the KaraClock Exercises that lead to the implementation of the KaraClockDisplay-Example. The exercises are distributed through three Labs, as shown by the headlines here.&lt;/p>
+&lt;p>The material section contains an article about why I made this addition to the ClockDisplay example: &lt;a href="https://progwebtec.github.io/staging/material/info1/clock_display_refactoring/">ClockDisplay Example: Reflections and Improvements&lt;/a>.&lt;/p>
+&lt;p>Open the Greenfoot-Kara project &lt;a href="https://github.com/htw-imi-info1/kara-clock-lab">&lt;code>https://github.com/htw-imi-info1/kara-clock-lab&lt;/code>&lt;/a>.
+It contains several test worlds. Make sure you&amp;rsquo;ve instantiated the correct test world!&lt;/p>
+&lt;p>If you haven&amp;rsquo;t already done so, you need to install &lt;a href="https://www.greenfoot.org/download">Greenfoot&lt;/a> to open the scenarios. The main file is &lt;code>project.greenfoot&lt;/code>.&lt;/p></description></item><item><title>Learn Python with Tests</title><link>https://progwebtec.github.io/staging/material/languages/python/learn-with-tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/languages/python/learn-with-tests/</guid><description>&lt;p>I often recommend to write a suite of (automatic) tests to explore a programming language
+and compile your own &amp;ldquo;cheat sheet&amp;rdquo; for the language.&lt;/p>
+&lt;p>By keeping the test suite &amp;ldquo;green&amp;rdquo;, you can be sure that everything you see in the
+source code is actually working.&lt;/p>
+&lt;p>I drew this idea from two sources: &lt;a href="https://www.rubykoans.com/">Jim Weirich&amp;rsquo;s Ruby Koans&lt;/a> and the
+recommendation of API Testing by Michael Feathers.&lt;/p>
+&lt;p>&lt;a href="https://www.rubykoans.com/">Jim Weirich&amp;rsquo;s Ruby Koans&lt;/a>, are a big
+suite of prepared test cases where you have to fill out the test expectations to learn ruby
+with a strong emphasis on edge cases - where ruby works in a special way that may not be
+totally clear or deductible from other programming languages. This idea has been transferred to
+many other programming languages, e.g. &lt;a href="https://github.com/gregmalcolm/python_koans">Greg Malcoms Python Koans&lt;/a>.&lt;/p></description></item><item><title>News and Announcements</title><link>https://progwebtec.github.io/staging/news/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/news/</guid><description>&lt;h2 id="archive-rather-old-posts">Archive (rather old posts)&lt;/h2></description></item><item><title>Python Resources</title><link>https://progwebtec.github.io/staging/material/languages/python/python-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/languages/python/python-resources/</guid><description>&lt;p>This is a collection of Python Resources. See &lt;a href="../python/">Python Notes&lt;/a>&lt;/p>
+&lt;h2 id="the-official-python-documentation">The Official Python Documentation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.python.org/3/">3 Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/library/index.html">The Python Standard Library — Python 3 documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/reference/index.html">The Python Language Reference — Python 3 documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/using/index.html">Python Setup and Usage — Python 3 documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/tutorial/index.html">The Python Tutorial — Python 3 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="books">Books&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://introcs.cs.princeton.edu/python/home/">Robert Sedgewick, Kevin Wayne, Robert Dondero: Introduction to Programming in Python: An Interdisciplinary Approach. Pearson, 2015&lt;/a>
+The linked companion website contains excerpts and lots of examples:&lt;/p></description></item><item><title>Sorting Algorithms</title><link>https://progwebtec.github.io/staging/material/algorithms/sorting-algorithms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/algorithms/sorting-algorithms/</guid><description>&lt;p>..&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Algorithm&lt;/th>
+ &lt;th style="text-align: left">Description&lt;/th>
+ &lt;th style="text-align: left">Invariant&lt;/th>
+ &lt;th style="text-align: left">Plus&lt;/th>
+ &lt;th style="text-align: left">O(n)&lt;/th>
+ &lt;th style="text-align: left">Comparisions&lt;/th>
+ &lt;th style="text-align: left">Swaps&lt;/th>
+ &lt;th style="text-align: left">Stable&lt;/th>
+ &lt;th style="text-align: left">adaptive&lt;/th>
+ &lt;th style="text-align: left">space&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Selection Sort&lt;/td>
+ &lt;td style="text-align: left">select smallest from rest, append to already sorted on left&lt;/td>
+ &lt;td style="text-align: left">a[1..i] in place&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">n&lt;/td>
+ &lt;td style="text-align: left">not stable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Insertion Sort&lt;/td>
+ &lt;td style="text-align: left">take card from unsorted pile (right), insert it into sorted pile&lt;/td>
+ &lt;td style="text-align: left">a[1..i] sorted&lt;/td>
+ &lt;td style="text-align: left">adaptable, simple -&amp;gt; ok for small n&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">stable&lt;/td>
+ &lt;td style="text-align: left">yes&lt;/td>
+ &lt;td style="text-align: left">O(1) extra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Shell Sort&lt;/td>
+ &lt;td style="text-align: left">Insertion sort on every h-th element decreasing h down to 1&lt;/td>
+ &lt;td style="text-align: left">each h-array is sorted&lt;/td>
+ &lt;td style="text-align: left">adaptable, still simple&lt;/td>
+ &lt;td style="text-align: left">n^(3/2)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">stable&lt;/td>
+ &lt;td style="text-align: left">yes&lt;/td>
+ &lt;td style="text-align: left">O(1) extra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Bubble Sort&lt;/td>
+ &lt;td style="text-align: left">go up through array, compare two and swap if not in right order (up to 1..n)&lt;/td>
+ &lt;td style="text-align: left">a[1..i] in place&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">n^2&lt;/td>
+ &lt;td style="text-align: left">stable&lt;/td>
+ &lt;td style="text-align: left">yes&lt;/td>
+ &lt;td style="text-align: left">O(1) extra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Merge Sort&lt;/td>
+ &lt;td style="text-align: left">split in two, sort rec, merge two parts.&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">predictable, works on linked lists&lt;/td>
+ &lt;td style="text-align: left">n log n&lt;/td>
+ &lt;td style="text-align: left">(0,5 to 1 )log n&lt;/td>
+ &lt;td style="text-align: left">(1 to 1,5)log n&lt;/td>
+ &lt;td style="text-align: left">stable&lt;/td>
+ &lt;td style="text-align: left">no&lt;/td>
+ &lt;td style="text-align: left">O(n) extra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Quick Sort&lt;/td>
+ &lt;td style="text-align: left">go up through array, compare two and swap if not in right order (up to 1..n)&lt;/td>
+ &lt;td style="text-align: left">a[1..k-1] &amp;lt; a[k] &amp;lt;= a[k+1..n]&lt;/td>
+ &lt;td style="text-align: left">general purpose sort, but not stable&lt;/td>
+ &lt;td style="text-align: left">n log n (n^2 worst)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">no&lt;/td>
+ &lt;td style="text-align: left">no&lt;/td>
+ &lt;td style="text-align: left">O(n·lg(n)) for some optimizatiosn&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Bogo Sort&lt;/td>
+ &lt;td style="text-align: left">randomly arrange array. If sorted, done.&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">n!&lt;/td>
+ &lt;td style="text-align: left">n * n!&lt;/td>
+ &lt;td style="text-align: left">n*n!&lt;/td>
+ &lt;td style="text-align: left">not stable&lt;/td>
+ &lt;td style="text-align: left">no&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Troubleshooting</title><link>https://progwebtec.github.io/staging/material/web-technology/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/web-technology/troubleshooting/</guid><description>&lt;h2 id="troubleshooting-steps-for-rails">Troubleshooting Steps for Rails&lt;/h2>
+&lt;p>The Rails Framework consists of a complex combination of various tools.
+There is no compilation step, everything is started from the command line.&lt;/p>
+&lt;p>As a consequence, things break at runtime, providing you with an informative
+stack trace and error message that help you find the problem.&lt;/p>
+&lt;p>You need to learn how to read those stack traces and error messages.&lt;/p>
+&lt;p>Here are some pointers how to do it:&lt;/p></description></item></channel></rss>
