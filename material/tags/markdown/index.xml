@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on Programming and Web Technology @ IMI</title><link>https://progwebtec.github.io/staging/material/tags/markdown/</link><description>Recent content in Markdown on Programming and Web Technology @ IMI</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://progwebtec.github.io/staging/material/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Markdown</title><link>https://progwebtec.github.io/staging/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://progwebtec.github.io/staging/material/hugo/markdown/</guid><description>&lt;p&gt;This is something in between a playground and a cheatsheet for hugo markdown.&lt;/p&gt;
+&lt;h2 id="markdown-in-hugo"&gt;Markdown in Hugo&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/getting-started/configuration-markup/"&gt;https://gohugo.io/getting-started/configuration-markup/&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-strikethrough~~~" data-lang="strikethrough~~~"&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;not strikethrough&lt;/del&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://www.markdownguide.org/"&gt;https://www.markdownguide.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.markdownguide.org/tools/hugo/"&gt;https://www.markdownguide.org/tools/hugo/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="ordered-lists"&gt;Ordered Lists&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists"&gt;https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;One
+&lt;ol&gt;
+&lt;li&gt;Ident Sublists 4 Spaces or 1 Tab more&lt;/li&gt;
+&lt;li&gt;Numbering does not have to be correct in the source
+&lt;ol&gt;
+&lt;li&gt;But the first number matters&lt;/li&gt;
+&lt;li&gt;second 42 is not a 42&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Without a one it is not even recognized as a list
+42. But the first number matters
+42. second 42 is not a 43&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Two&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="code-in-lists"&gt;Code in Lists&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;One
+&lt;ol&gt;
+&lt;li&gt;Ident Sublists 4 Spaces or 1 Tab more&lt;/li&gt;
+&lt;li&gt;Numbering does not have to be correct in the source
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;But the first number matters&lt;/p&gt;</description></item></channel></rss>
